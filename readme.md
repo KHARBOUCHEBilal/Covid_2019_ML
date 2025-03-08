@@ -37,6 +37,31 @@ This project aims to develop a machine learning model to predict and analyze the
     ```bash
     python predict.py
     ```
+## Checklist de base (non-exhaustive)
+    I. Analyse de la forme:
+        + Identification de la target
+        + Nombre de lignes et de colonnes
+        + types de variables
+        + Identification des valeurs manquantes
+    II. Analyse du fond:
+        + Visualisation de la target (Histogramme / Boxplot)
+        + Comprehension des differentes variables (Internet)
+        + Visualisation des relations features - target Histogramme / Boxplot
+        + Identifaicaiton des outliers
+    III. Pre-processing
+        + Creation du train set / Test set
+        + Elimination des Nan ; dropna(), imputation, colonnes <<vides>>
+        + Encodage 
+        + suppression des outliers nefastes au modele
+        + Feature seleciton 
+        + Feature Enginierring
+        + Feature Scaling
+    IV. Modelisation
+        + Definir une fonction d'evaluation 
+        + Entrainement de differents modeles
+        + Optimisation avec GridSearchCV
+        + Anlayse des erreurs et retour au Preprocessing / EDA
+        + Learinng Curve et prise de decision
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request.
