@@ -12,7 +12,7 @@ This project aims to develop a machine learning model to predict and analyze the
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Covid_2019_ML.git
+    git clone https://github.com/KHAROBUCHEBilal/Covid_2019_ML.git
     ```
 2. Navigate to the project directory:
     ```bash
